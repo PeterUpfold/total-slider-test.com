@@ -1,0 +1,23 @@
+# Ignore things with passwords
+database.yml
+s3.yml
+wp-salts.php
+config/services/
+
+# Misc.
+.sass-cache
+.DS_Store
+cache
+
+# Vagrant and Puppet
+.vagrant
+vagrant_nginx_postprocess
+site.pp
+.cache
+vagrant-custom.rb
+
+# Site
+public/assets/
+public/content/uploads/
+public/wp/
+vendor/composer/
