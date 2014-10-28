@@ -54,13 +54,15 @@ if ( $urlParts[0] == 'dev' ) {
 	 * DEV
 	 */
 	define( 'WP_STAGE', $urlParts[0] );
-	define( 'WP_HOME', 'http://' . WP_STAGE . '.' . $project['domain'] );
+	define( 'WP_HOME', 'http://dev.total-slider-test.com:15080' );
 
 	// Make "private"
 	define( 'WP_ROBOTS_PUBLIC', 0 );
 
 	// Show errors
 	define( 'WP_DEBUG', true );
+	//define( 'SCRIPT_DEBUG', true );
+	//define( 'STYLE_DEBUG', true );
 } elseif ( $urlParts[0] == 'staging' ) {
 	/**
 	 * STAGING
@@ -95,7 +97,7 @@ define( 'WP_POST_REVISIONS', 8 );
 /**
  * Language (leave blank for American English)
  */
-define( 'WPLANG', '' );
+define( 'WPLANG', 'fr_FR' );
 
 /**
  * Path to WordPress

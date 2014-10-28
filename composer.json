@@ -3,6 +3,7 @@
 	"description": "Fast, opinionated WordPress scaffolding",
 	"type": "project",
 	"license": "BSD-3-Clause",
+	"minimum-stability": "dev",
 	"config": {
 		"vendor-dir": "vendor/composer"
 	},
@@ -20,7 +21,8 @@
 	],
 	"require": {
 		"symfony/yaml": "~2.0",
-		"johnpbloch/wordpress": "~3.9"
+		"johnpbloch/wordpress": "4.0",
+		"phpdocumentor/phpdocumentor": "2.*"
 	},
 	"extra": {
 		"wordpress-install-dir": "public/wp",
